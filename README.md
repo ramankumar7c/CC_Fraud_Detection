@@ -54,34 +54,6 @@ npm run dev
 ```
 > Access the app at `http://localhost:3000`
 
-### 🔹 Backend (Deployed)
-The backend is deployed on **Render** and accessible at:  
-`https://credit-card-fraud-detection-e4xz.onrender.com`
-
-The frontend will communicate directly with this backend for predictions.
-
----
-
-## 🧪 Example API Request (For Testing)
-You can test the backend using tools like **Postman** or **curl**:  
-
-```bash
-POST https://fraud-detection-backend.onrender.com/predict
-Content-Type: application/json
-
-{
-  "features": [2.5, 1.2, 0.7, 1, 0, 1]
-}
-```
-
-**Response:**
-```json
-{
-  "prediction": 1
-}
-```
-> `1` indicates Fraud, `0` indicates No Fraud.
-
 ---
 
 ## 🤝 Contributing
