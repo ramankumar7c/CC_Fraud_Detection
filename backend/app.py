@@ -5,7 +5,7 @@ import numpy as np
 
 app = Flask(__name__)
 
-model_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'fraud_detection_model.pkl'))
+model_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'rf_pso_model.pkl'))
 if not os.path.exists(model_path):
     raise FileNotFoundError(f"Model not found at {model_path}")
 
